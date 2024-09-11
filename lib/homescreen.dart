@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_statemanagement/counter_controller.dart';
+import 'package:getx_statemanagement/controllers/counter_controller.dart';
 class Homescreen extends StatefulWidget {
   const Homescreen({super.key});
 

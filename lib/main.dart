@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:getx_statemanagement/example_three.dart';
 import 'package:getx_statemanagement/example_two.dart';
+import 'package:getx_statemanagement/favourite_app.dart';
 import 'package:getx_statemanagement/homescreen.dart';
 
 void main() {
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ExampleTwo(),
+      home: FavouriteApp(),
     );
   }
 }

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_statemanagement/exampletwo_controller.dart';
+import 'package:getx_statemanagement/controllers/exampletwo_controller.dart';
 class ExampleTwo extends StatefulWidget {
   const ExampleTwo({super.key});
 
