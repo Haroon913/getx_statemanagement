@@ -3,6 +3,8 @@ import 'package:getx_statemanagement/example_three.dart';
 import 'package:getx_statemanagement/example_two.dart';
 import 'package:getx_statemanagement/favourite_app.dart';
 import 'package:getx_statemanagement/homescreen.dart';
+import 'package:getx_statemanagement/image_picker.dart';
+import 'package:getx_statemanagement/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: FavouriteApp(),
+      home: LoginScreen(),
     );
   }
 }
